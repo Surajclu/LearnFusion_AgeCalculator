@@ -1,0 +1,64 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2ea8e1;
+    margin: 0;
+   
+}
+
+.container {
+    background-color: rgba(236, 45, 175, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow:  20px #e265051a;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left : 30px;
+}
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: ruby-base-container;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1cm;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #13cb41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor:progress;
+}
+
+button:hover {
+    background-color: #a32b4b;
+}
+
+p {
+    font: size 4px;;
+    color: black;
+    margin-top: 15px;
+}
